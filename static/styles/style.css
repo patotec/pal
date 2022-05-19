@@ -1,0 +1,1651 @@
+/*URL SHORTENER CSS STARTS FROM HERE*/
+
+body 
+{
+  margin: 0;
+  font-family:rubik;
+  font-size: 25px;
+}
+
+
+.text_size
+{
+  font-size: 20px;
+  font-size: 3vw;
+
+}
+
+.front_header
+{
+  background-color:white;
+  padding-top: 3%;
+  padding-bottom: 3%; 
+  padding-left: 5px;
+  padding-right: 5px;
+  color: green;
+
+}
+.container_body
+{
+  border-bottom: solid 2px lavender;
+  margin-left:1%;
+  margin-right:1%;
+  background-color:white;
+  border-radius:3px;
+  font-size: 15px;
+  color:black;
+  margin-top: 2%;
+ 
+}
+
+
+.about
+{
+  background-color:whitesmoke;
+  border: solid 1px lavender;
+  margin-left:2%;
+  margin-right:2%;
+  padding-left: 2%;
+  padding-right: 2%;
+  border-radius:2px;
+  font-size: 15px;
+  color:black;
+  margin-top: 1%;
+}
+
+.submit
+{
+  background-color: dodgerblue;
+  border: 1px solid blue;
+  border-radius:3px;
+  height:33px;
+  width: 90px;
+  padding-left:0%;
+  text-align:center;
+  margin-top:3%;
+  color:white;
+  
+}
+
+.profit_calculator
+{
+  border-bottom: solid 2px lavender;
+  margin-left:2%;
+  margin-right:2%;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top:3%;
+  background-color:#ffd644;
+  border-radius:5px;
+  font-size: 15px;
+  color:black;
+  margin-top: 2%;
+  background-image:linear-gradient(to left,#f9e3a2,#d2f6fc);
+
+}
+
+#whatisrenda_body,#whatisrenda_title
+{
+  margin-left:2%;
+  margin-right:2%;
+  padding-left:2%;
+  margin-top: 1%;
+  border-radius:5px;
+  font-size: 14px;
+  color:black;
+  cursor:pointer;
+ 
+}
+#whatisrenda_body
+{
+  margin-left:2%;
+  margin-right:2%;
+  padding-left: 2%;
+  margin-top: 1%;
+  background-color:whitesmoke;
+  border-radius:1px;
+  font-size:13px;
+  color:black;
+  display: none;
+  border:solid 1px lavender;
+
+}
+#resourcelink_body,#resourcelink_title
+{
+  margin-left:2%;
+  margin-right:2%;
+  padding-left:2%;
+  margin-top: 1%;
+  border-radius:5px;
+  font-size: 14px;
+  color:black;
+  cursor:pointer;
+ 
+
+}
+#resourcelink_body
+{
+  margin-left:2%;
+  margin-right:2%;
+  padding-left: 2%;
+  margin-top: 1%;
+  background-color:whitesmoke;
+  border-radius:1px;
+  font-size:13px;
+  color:black;
+  border:solid 1px lavender;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer
+{
+  background-color:white;
+  opacity: 0.9;
+  padding-top: 5%;
+  padding-bottom: 5%; 
+  box-shadow:0 6px 25px rgba(0,8,0,0.70);
+  padding-left: 5px;
+  padding-right: 5px;
+  color: green;
+ 
+}
+
+
+#headerMenuLists,#headerMenu
+{
+  margin-left:2%;
+  margin-right:2%;
+  padding-left:2%;
+  margin-top: 1%;
+  border-radius:5px;
+  font-size: 14px;
+  color:black;
+ 
+
+}
+#headerMenuLists
+{
+  margin-left:2%;
+  margin-right:2%;
+  padding-left: 2%;
+  margin-top: 1%;
+  background-color:whitesmoke;
+  border-radius:1px;
+  font-size:13px;
+  color:black;
+  display: none;
+  border:solid 1px lavender;
+
+}
+.dd
+{
+  border:dodgerblue solid 1px;
+  border-image:linear-gradient(to right, red 25%,lightgreen 55%, forestgreen 75%, forestgreen 75%,black 95%) 4;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
+.balance_body
+{
+  border-bottom: solid 2px lavender;
+  margin-left:2%;
+  margin-right:2%;
+  padding-right: 2%;
+  padding-left: 2%;
+  background-color:#FEFCFF;
+  border-radius:5px;
+  font-size: 15px;
+  color:black;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  box-shadow:0 6px 13px rgba(0,8,0,0.70);
+}
+.input2
+{
+  border:2px solid #BCC6CC;
+  border-radius:5px;
+  margin-left:4%;
+  margin-right:4%;
+  height: 45px;
+  width: 255px;
+  font-size: 13px;
+  color:black;
+  text-align: center;
+  background-color:white;
+  
+}
+.input3
+{
+  border:2px solid #BCC6CC;
+  border-radius:5px;
+  margin-left:4%;
+  margin-right:1.5%;
+  padding-left: 3%;
+  font-size:13px;
+  height: 45px;
+  width: 255px;
+  color:black;
+  background-color:white;
+
+  
+}
+
+
+button
+{
+  background-color: gold;
+  border: 2px solid darkslategrey;
+  border-radius:3px;
+  height:33px;
+  width: 190px;
+  padding-left:0%;
+  text-align:center;
+  margin-top:5%;
+  color:white;
+ 
+}
+button:hover {
+  background: yellow;
+  color: black;
+}
+#button
+{
+  background-color: #4CC417;
+  border: 2px solid #4CC552;
+  border-radius:3px;
+  height:33px;
+  width: 190px;
+  padding-left:0%;
+  color:white;
+ 
+}
+#button:hover {
+  background: #6CBB3C;
+  color:white;
+}
+
+#button2
+{
+  background-color: red;
+  border: 1px solid crimson;
+  border-radius:3px;
+  height:33px;
+  width: 190px;
+  padding-left:0%;
+  color:white;
+ 
+}
+#button2:hover {
+  background: #c0401e;
+  color:white;
+}
+
+#register_button
+{
+  background-color: #FFA500;
+  border: 1px solid #FFA500;
+  border-radius:3px;
+  height:33px;
+  width: 190px;
+  padding-left:0%;
+  color:white;
+ 
+}
+#register_button:hover {
+  background: #FFA500;
+  color:white;
+}
+.investAmountBtn
+{
+  background-color: #4CC417;
+  border: 2px solid #4CC552;
+  border-radius:3px;
+  height:8vh;
+  width: 40vw;
+  padding-left:0%;
+  text-align:center;
+  color:white;
+ 
+}
+#button:hover {
+  background: #6CBB3C;
+  color:white;
+}
+
+#shortenBtn
+{
+  background-color: dodgerblue;
+  border: 2px solid #157DEC;
+  border-radius:5px;
+  height:6vh;
+  width: 80vw;
+  padding-left:0%;
+  text-align:center;
+  margin-top:1%;
+  color:black;
+ 
+}
+#shortenBtn:hover {
+  background:#2B60DE;
+  color: black;
+}
+
+
+
+#myBtn {
+  width: 130px;
+  font-size: 18px;
+  padding: 10px;
+  padding-bottom:3%;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  border:1px solid dodgerblue;
+  height: 7vh;
+}
+
+#registerBtn
+{
+  background-color: dodgerblue;
+  border: 2px solid #157DEC;
+  border-radius:5px;
+  height:30px;
+  width: 120px;
+  padding-left:0%;
+  text-align:center;
+  margin-top:3%;
+  padding-top: 1%;
+  color:black;
+  font-size: 17px;
+  box-shadow:0 6px 13px rgba(0,8,0,0.70);
+ 
+}
+#registerBtn:hover {
+  background:#2B60DE;
+  color: black;
+}
+
+#loginBtn
+{
+  background-color: dodgerblue;
+  border: 2px solid #157DEC;
+  border-radius:5px;
+   height:30px;
+  width: 120px;
+  padding-left:0%;
+  text-align:center;
+  margin-top:3%;
+  padding-top: 1%;
+  color:black;
+  font-size: 17px;
+  box-shadow:0 6px 13px rgba(0,8,0,0.70);
+ 
+}
+#loginBtn:hover {
+  background:#2B60DE;
+  color: black;
+}
+
+#sellBtcBtn
+{
+  background-color: #6CC417;
+  border: 2px solid #41A317;
+  border-radius:5px;
+  height:6vh;
+  width: 60vw;
+  padding-left:0%;
+  text-align:center;
+  margin-top:3%;
+  padding-top: 1%;
+  color:black;
+  font-size: 17px;
+  box-shadow:0 6px 13px rgba(0,8,0,0.70);
+ 
+}
+#sellBtcBtn:hover {
+  background:#41A317;
+  color: black;
+}
+
+#buyBtcBtn
+{
+  background-color: #6CC417;
+  border: 2px solid #41A317;
+  border-radius:5px;
+  height:6vh;
+  width: 60vw;
+  padding-left:0%;
+  text-align:center;
+  margin-top:3%;
+  padding-top: 1%;
+  color:black;
+  font-size: 17px;
+  box-shadow:0 6px 13px rgba(0,8,0,0.70);
+ 
+}
+#buyBtcBtn:hover {
+  background:#41A317;
+  color: black;
+}
+#buybtcnote
+{
+  background-color: white;
+  width:73vw;
+  font-size: 13px;
+  border-bottom:solid 1px grey;
+  border-left: solid 1px grey;
+  border-right: solid 1px grey;
+  padding-right: 2%;
+}
+#sellbtcnote
+{
+  background-color: white;
+  width:80vw;
+  font-size: 13px;
+  border-bottom:solid 1px grey;
+  border-left: solid 1px grey;
+  border-right: solid 1px grey;
+  padding-left:3%;
+  padding-right: 3%;
+}
+
+#show_sellbtc_note
+{
+display: none;
+}
+
+#show_buybtc_note
+{
+display: none;
+}
+
+
+.successful
+{
+  background-color:#89C35C;
+  opacity: 0.8;
+  border:solid 2px #4CC417;
+  margin-right: 20%;
+  margin-left: 20%;
+  margin-top: 3%;
+  padding-left: 2%;
+  padding-right: 2%;
+  color: #254117;
+  font-size: 14px;
+   box-shadow:0 6px 13px rgba(0,8,0,0.70);
+}
+
+.notification
+{
+  background-color:#FDD017;
+  opacity: 0.8;
+  border:solid 1px #E9AB17;
+  margin-right: 20%;
+  margin-left: 20%;
+  margin-top:1%;
+  padding-left: 2%;
+  padding-right: 2%;
+  color: #254117;
+  font-size: 14px;
+   box-shadow:0 6px 13px rgba(0,8,0,0.70);
+}
+
+.afterPaymentNotification
+{
+  background-color:lightgreen;
+  background-image:linear-gradient(to right,lightgreen,silver);
+  opacity: 0.8;
+  border:solid 1px green;
+  margin-right: 15%;
+  margin-left: 15%;
+  margin-top:1%;
+  padding-left: 2%;
+  padding-right:2%;
+  color: #254117;
+  font-size: 14px;
+   box-shadow:0 6px 13px rgba(0,8,0,0.70);
+}
+
+.fundAccount
+{
+  
+   background-image:linear-gradient(to right,lightgreen,silver);
+  border-radius: 7px;
+  margin-right:5%;
+  margin-left: 5%;
+  padding-top: 3%;
+  margin-top: 1%;
+  box-shadow:0 6px 13px rgba(0,8,0,0.70);
+  color:#151B8D;
+  padding-left: 6%;
+  
+}
+.withdrawCash
+{
+
+  background-color:cyan;
+   background-image:linear-gradient(to right,cyan,silver);
+  border-radius: 7px;
+  margin-right:5%;
+  margin-left: 5%;
+  padding-top: 3%;
+  box-shadow:0 6px 13px rgba(0,8,0,0.70);
+  color:#151B8D;
+  padding-left: 6%;
+}
+.bankDetails
+{
+  background-color:#FFCBA4;
+  background-image:linear-gradient(to right,#FFCBA4,silver);
+  border-radius: 7px;
+  margin-right:5%;
+  margin-left: 5%;
+  padding-top: 3%;
+  box-shadow:0 6px 13px rgba(0,8,0,0.70);
+  color:#151B8D;
+  padding-left: 6%;
+}
+.inbox
+{
+  background-color: skyblue;
+  background-image:linear-gradient(to right,skyblue,silver);
+  border-radius: 7px;
+  margin-right:5%;
+  margin-left: 5%;
+  padding-top: 3%;
+  box-shadow:0 6px 13px rgba(0,8,0,0.70);
+  color:#151B8D;
+  padding-left: 6%;
+}
+.myProfile
+{
+  background-color:#E0B0FF;
+  background-image:linear-gradient(to right,#E0B0FF,silver);
+  border-radius: 7px;
+  margin-right:5%;
+  margin-left: 5%;
+  padding-top: 3%;
+  box-shadow:0 6px 13px rgba(0,8,0,0.70);
+  color:#151B8D;
+  padding-left: 6%;
+}
+
+.contactUs
+{
+  background-color:#FFDB58;
+  background-image:linear-gradient(to right,#FFDB58,silver);
+  border-radius: 7px;
+  margin-right:5%;
+  margin-left: 5%;
+  padding-top: 3%;
+  box-shadow:0 6px 13px rgba(0,8,0,0.70);
+  color:#151B8D;
+  padding-left: 6%;
+}
+.transactionHistory
+{
+  background-color:#F88158;
+  background-image:linear-gradient(to right,#F88158,silver);
+  border-radius: 7px;
+  margin-right:5%;
+  margin-left: 5%;
+  padding-top: 3%;
+  box-shadow:0 6px 13px rgba(0,8,0,0.70);
+  color:#151B8D;
+  padding-left: 6%;
+}
+.investmentPlans
+{
+  background-color:#848482;
+  background-image:linear-gradient(to right,#848482,silver);
+  border-radius: 7px;
+  margin-right:5%;
+  margin-left: 5%;
+  padding-top: 3%;
+  box-shadow:0 6px 13px rgba(0,8,0,0.70);
+  color:#151B8D;
+  padding-left: 6%;
+}
+.learnHowtoInvest
+{
+  background-color:orangered;
+  background-image:linear-gradient(to right,orangered,silver);
+  border-radius: 7px;
+  margin-right:5%;
+  margin-left: 5%;
+  padding-top: 3%;
+  box-shadow:0 6px 13px rgba(0,8,0,0.70);
+  color:#151B8D;
+  padding-left: 6%;
+}
+.testimonies
+{
+  background-color:orange;
+  background-image:linear-gradient(to right,orange,silver);
+  border-radius: 7px;
+  margin-right:5%;
+  margin-left: 5%;
+  padding-top: 3%;
+  box-shadow:0 6px 13px rgba(0,8,0,0.70);
+  color:#151B8D;
+  padding-left: 6%;
+}
+.aboutUs
+{
+  background-color:#737CA1;
+  background-image:linear-gradient(to left,#737CA1,silver);
+  border-radius: 7px;
+  margin-right:5%;
+  margin-left: 5%;
+  padding-top: 3%;
+  box-shadow:0 6px 13px rgba(0,8,0,0.70);
+  color:#151B8D;
+  padding-left: 6%;
+}
+.faq
+{
+  background-color:#728C00;
+  background-image:linear-gradient(to left,#728C00,silver);
+  border-radius: 7px;
+  margin-right:5%;
+  margin-left: 5%;
+  padding-top: 3%;
+  box-shadow:0 6px 13px rgba(0,8,0,0.70);
+  color:#151B8D;
+  padding-left: 6%;
+}
+.investment_type
+{
+  background-color:navy;
+  margin-top: 2%;
+  font-size: 20px;
+  padding-left:3px;
+  padding-right: 3px;
+  color:white;
+  text-align: center;
+  margin-bottom: 1%;
+}
+
+.myInvestment
+{
+  background-color:white;
+  margin-top: 2%;
+  font-size: 16px;
+  padding-left:3px;
+  padding-right: 3px;
+  color:navy;
+  margin-bottom: 1%;
+  border-left: grey 2px solid;
+}
+#howtoInvest
+{
+  background-color:navy;
+  margin-top: 2%;
+  font-size: 17px;
+  padding-left:3px;
+  padding-right: 3px;
+  color:white;
+  text-align: center;
+  margin-left: 18%;
+  margin-right: 18%;
+  border-radius: 5px;
+  border:#0020C2 2px solid;
+}
+
+#howtoInvest1
+{
+  background-color:navy;
+  margin-top: 2%;
+  font-size: 17px;
+  padding-left:3px;
+  padding-right: 3px;
+  color:white;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 5px;
+  padding-top: 2%;
+  padding-bottom:2%;
+  border:#0020C2 2px solid;
+  box-shadow:0 6px 13px rgba(0,8,0,0.70);
+}
+
+#howtoInvestBody
+{
+  background-color:white;
+  border:2px #95B9C7 solid;
+  font-size: 16px;
+  padding-left:3px;
+  padding-right: 3px;
+  color:black;
+  text-align: center;
+  margin-bottom: 1%;
+  margin-left: 14%;
+  margin-right: 14%;
+  border-radius: 5px;
+  word-wrap: break-word;
+ 
+}
+#show_howtoInvestBody
+{
+display: none;
+}
+
+#bitcoinRate
+{
+  background-color:brown;
+  margin-top: 2%;
+  font-size: 17px;
+  padding-left:3px;
+  padding-right: 3px;
+  color:white;
+  text-align: center;
+  margin-left: 18%;
+  margin-right: 18%;
+  border-radius: 5px;
+  border:maroon 2px solid;
+}
+#bitcoinRate1
+{
+  background-color:lightgreen;
+  margin-top: 2%;
+  font-size: 15px;
+  padding-left:3px;
+  padding-right: 3px;
+  padding-top: 2%;
+  padding-bottom:2%;
+  color:black;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 5px;
+  border:green 1px solid;
+
+}
+#bitcoinRateBody
+{
+  background-color:white;
+  border:2px #95B9C7 solid;
+  font-size: 16px;
+  padding-left:3px;
+  padding-right: 3px;
+  color:black;
+  text-align: center;
+  margin-bottom: 1%;
+  margin-left: 14%;
+  margin-right: 14%;
+  border-radius: 5px;
+  word-wrap: break-word;
+ 
+}
+#show_bitcoinRateBody
+{
+display: none;
+}
+
+.profile_image
+{
+  border-radius: 100em;
+  box-shadow:0 6px 13px rgba(0,8,0,0.70);
+  border:solid 3px silver;
+  
+
+}
+.profile_image_body
+{
+  background-color: lavender;
+  border-bottom-right-radius: 3em;
+  border-top-left-radius: 2em;
+  box-shadow:0 6px 13px #736AFF;
+}
+.profile_image_bodyFooter
+{
+  background-color: lightgreen;
+  border-bottom-right-radius: 60px;
+  margin-right: 29%;
+  font-size: 14px;
+  color:navy;
+  box-shadow:0px 3px 7px #736AFF;
+  
+
+}
+.profileDetailsActiveLink
+{
+ background-color: lavender;
+ margin-right:5%;
+ padding:3px;
+ padding-left: 5px;
+ border-top: white solid 1px;
+}
+.profileBg
+{
+  border-bottom: solid 2px lavender;
+  margin-left:2%;
+  margin-right:2%;
+  background-color:whitesmoke;
+  border-radius:5px;
+  font-size: 15px;
+  color:black;
+  opacity: 0.9;
+  margin-top: 1%;
+  box-shadow:0 6px 13px rgba(0,8,0,0.70);
+  border-top-left-radius: 2em;
+}
+.profileDetails
+{
+border-bottom: solid 2px lavender;
+  margin-left:12%;
+  margin-right:12%;
+  padding-left: 2%;
+  padding-right: 2%;
+  border-radius:5px;
+  font-size: 15px;
+  color:black;
+  background-color: white;
+  margin-top: 3%;
+   border-top-right-radius: 2em;
+   box-shadow:0 6px 6px rgba(0,8,0,0.70);
+ 
+}
+.profileAccountInfo
+{
+  background-color:cyan;
+  background-image:linear-gradient(to right,cyan,silver);
+  color:navy;
+  padding-left: 2%;
+  border-top-right-radius: 3em; 
+}
+.profileInfo
+{
+  background-color:orange;
+  background-image:linear-gradient(to right,orange,silver);
+  color:navy;
+  padding-left: 2%;
+  border-top-right-radius: 3em; 
+}
+.whatsappBtn
+{
+  
+  background-repeat: no-repeat;
+ margin-left:2%;
+ position: fixed;
+ float:right;
+ right:20px;
+ top:300px;
+
+}
+.phoneBtn
+{
+  
+background-repeat: no-repeat;
+ margin-left:1%;
+ position: fixed;
+ float:left;
+ left:20px;
+ top:300px;
+
+}
+
+.chatBody
+{
+  border-bottom: solid 2px lavender;
+  margin-left:2%;
+  margin-right:2%;
+  padding-left: 2%;
+  padding-right: 2%;
+  background-color:whitesmoke;
+  border-radius:5px;
+  font-size: 15px;
+  color:black;
+  margin-top: 1%;
+  box-shadow:0 6px 13px rgba(0,8,0,0.70);
+}
+
+.bubble{
+    background-color: #eee;
+    margin-top: 2%;
+    width:300px;
+    border-radius: 5px;
+    box-shadow: 0 0 6px #B2B2B2;
+    display: inline-block;
+    padding: 10px 18px;
+    position: relative;
+    vertical-align: top;
+    font-family: arial;
+    box-shadow:0 6px 6px rgba(0,8,0,0.70);
+}
+
+.bubble::before {
+    background-color: #eee;
+    content: "\00a0";
+    display: block;
+    height: 16px;
+    position: absolute;
+    top: 11px;
+    transform:             rotate( 29deg ) skew( -35deg );
+        -moz-transform:    rotate( 29deg ) skew( -35deg );
+        -ms-transform:     rotate( 29deg ) skew( -35deg );
+        -o-transform:      rotate( 29deg ) skew( -35deg );
+        -webkit-transform: rotate( 29deg ) skew( -35deg );
+    width:  20px;
+}
+.me 
+{
+   
+    margin: 5px 45px 5px 20px;         
+}
+.me::before {
+    box-shadow: -2px 2px 2px 0 rgba( 178, 178, 178, .4 );
+    left: -9px;           
+}
+.you {
+        
+    margin: 5px 20px 5px 45px;         
+}
+
+.you::before {
+    box-shadow: 2px -2px 2px 0 rgba( 178, 178, 178, .4 );
+    right: -9px;    
+}
+
+.adminAvatar
+{
+  
+  padding-right: 2%;
+}
+
+ .show-read-more .more-text
+ {
+        display: none;
+        font-size: 12px;
+  }
+
+  .show1-read1-more1 .more1-text1
+ {
+        display: none;
+        font-size: 12px;
+  }
+
+  .testimonyLists
+  {
+    background-color: white;
+    border-radius: 4px;
+    border:solid 4px whitesmoke;
+    margin-bottom:5px;
+
+
+  }
+  .testimonyOwnerImage
+  {
+     background-color: white;
+    border-radius: 4px;
+    border-left:solid 4px whitesmoke;
+    border-bottom: solid 3px whitesmoke;
+    margin-bottom:5px;
+   
+  }
+
+.callUs
+{
+   background-color:dodgerblue;
+  opacity: 0.9;
+  border-radius: 4px;
+  width:24vw;
+  padding-top: 2%;
+  height:3vh; 
+  text-decoration:bold;
+  font-weight:300;
+  margin-left: 5%; 
+
+}
+
+.testimonyVideo
+{
+  background-repeat: no-repeat;
+ margin-left:2%;
+ position: fixed;
+ float:right;
+ right:20px;
+ top:300px;
+}
+
+
+video 
+{
+  width: 100% !important;
+  height: 50% !important;
+}
+
+main {
+
+  height: 100vh;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+#Msgpopup 
+{
+  position:fixed;
+  top:0px;
+  left:0px;
+  width:100vw;
+  height:120vh;
+  background:rgba(0,0,0,0.75);
+  display:none;
+}
+#Msgpopup .popup-content {
+  position:absolute;
+  top:40%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  width:330px;
+  height: 50%;
+  border:solid 2px grey;
+  border-radius:3px;
+  background-image:linear-gradient(to bottom,white,lavender,whitesmoke);
+}
+#Msgpopup a.close-popup {
+   position:absolute;
+  cursor:pointer;
+  top:5px;
+  right:10px;
+  font-size:20px;
+  text-decoration:none;
+  font-size:18px;
+  font-weight:300;
+  line-height:30px;
+  text-align:center;
+  border:solid grey 1px;
+  padding-right: 3%;
+  padding-left: 3%;
+  margin-bottom: 3%;
+  background-color:skyblue;
+  border-radius: 5px;
+  color:white;
+}
+#Msgpopup:target 
+{
+  display:block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header
+{
+  background-color:navy;
+  opacity: 0.9;
+  padding-bottom: 2%;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #f2f2f2;
+
+}
+
+
+.right_note
+{
+background-color:lightgreen;
+opacity: 0.8;
+margin-top: 5px;
+margin-right: 5px;
+padding-left:3px;
+padding-right: 3px;
+float:right;
+font-family:arial;
+box-shadow:0 6px 13px rgba(0,8,0,0.70);
+}
+
+.left_note
+{
+background-color:lightgreen;
+margin-top: 5px;
+margin-right: 5px;
+margin-left: 2px;
+padding-left:3px;
+padding-right: 3px;
+font-family:arial;
+}
+
+.body_bg
+{
+  background-color:aliceblue;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-left:3px;
+  padding-right: 3px;
+  box-shadow:0 6px 13px rgba(0,8,0,0.70);
+}
+.intro_bg
+{
+  background-color:white;
+  border: 2px solid lavender;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-left:15px;
+  padding-right: 15px;
+  box-shadow:0 6px 13px rgba(0,8,0,0.70);
+}
+
+.register_class
+{
+  background-color:orangered;
+  border: 1px solid black;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 25px;
+  padding-left:3px;
+  padding-right: 3px;
+
+}
+
+.login_class
+{
+  background-color:aliceblue;
+  border-bottom: 1px solid silver;
+  border-left: 1px solid silver;
+  border-right: 1px solid silver;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-left:3px;
+  padding-right: 3px;
+}
+
+.balance_class
+{
+  background-color:aliceblue;
+  border-bottom: 1px solid silver;
+  border-left: 1px solid silver;
+  border-right: 1px solid silver;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-left:3px;
+  padding-right: 3px;
+}
+
+
+.login_class_title
+{
+  background-color:lightcyan;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-left:3px;
+  padding-right: 3px;
+ 
+}
+
+hr
+{
+  border-top:1px solid black;
+  background-color: red;
+  margin-bottom: 2px;
+  margin-top: 2px;
+
+}
+
+.body_bg1
+{
+  background-color:whitesmoke;
+  border-left: 2px solid forestgreen;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 10px;
+
+}
+
+.start_flip
+{
+  background-color:lightgreen;
+  opacity: 0.8;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-left:3px;
+padding-right: 3px;
+box-shadow:0 6px 13px rgba(0,8,0,0.70);
+}
+.lightgreen_class
+{
+  background-color:lightgreen;
+  border: 1px solid lime;
+  margin-top: 10px;
+  border-radius: 4px;
+  margin-left: 65px;
+  margin-right: 65px;
+  font-size: 18px;
+  padding-left:3px;
+  padding-right: 3px;
+ 
+
+}
+
+#fund_account
+{
+  background-color:lightgreen;
+  border: 1px solid lime;
+  margin-top: 10px;
+  border-radius: 4px;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 18px;
+  padding-left:3px;
+  padding-right: 3px;
+ 
+
+}
+
+#lightgreen_class
+{
+  background-color:lightgreen;
+  border: 1px solid lime;
+  margin-top: 10px;
+  border-radius: 4px;
+  margin-left: 65px;
+  margin-right: 65px;
+  font-size: 18px;
+  padding-left:3px;
+  padding-right: 3px;
+  
+
+}
+
+.golden_class
+{
+  background-color:goldenrod;
+  border: 1px solid peru;
+  border-radius: 4px;
+  margin-top: 10px;
+  margin-left: 65px;
+  margin-right: 65px;
+  font-size: 18px;
+  padding-left:3px;
+  padding-right: 3px;
+ 
+
+}
+#golden_class
+{
+  background-color:goldenrod;
+  border: 1px solid peru;
+  border-radius: 4px;
+  margin-top: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 2%;
+  padding-bottom:2%;
+  font-size: 15px;
+  padding-left:3px;
+  padding-right: 3px;
+
+
+}
+
+#register_class
+{
+  background-color:skyblue;
+  border: 1px solid peru;
+  border-radius: 4px;
+  margin-top: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 2%;
+  padding-bottom:2%;
+  font-size: 15px;
+  padding-left:3px;
+  padding-right: 3px;
+
+  
+}
+
+
+#legitmacy_class
+{
+  background-color:violet;
+  border: 1px solid magenta;
+  border-radius: 4px;
+  margin-top: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 2%;
+  padding-bottom:2%;
+  font-size: 15px;
+  padding-left:3px;
+  padding-right: 3px;
+
+
+}
+
+#about_class
+{
+  background-color:dodgerblue;
+  border: 1px solid navy;
+  border-radius: 4px;
+  margin-top: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 2%;
+  padding-bottom:2%;
+  font-size: 15px;
+  padding-left:3px;
+  padding-right: 3px;
+
+}
+
+#show_contact
+{
+display: none;
+}
+
+#show_package
+{
+display: none;
+}
+
+#show_legit
+{
+  display: none;
+}
+
+#show_about
+{
+  display: none;
+}
+#show_register
+{
+  display: none;
+}
+
+.input
+{
+  border:2px solid darkslategrey;
+  border-radius:1px;
+  margin-left:4%;
+  margin-right:4%;
+  height:33px;
+  width: 90px;
+  font-size:16px;
+  opacity:0.5;
+  color:black;
+  background-color:white;
+  
+}
+.select
+{
+  border:2px solid darkslategrey;
+  border-radius:1px;
+  margin-left:4%;
+  margin-right:4%;
+  height:30px;
+  width:auto;
+  font-size:16px;
+  color:black;
+  background-color:#D8D8D8;
+  
+}
+
+
+ table,td,tr
+{
+  width:device-width;
+  margin-left:0%;
+ font-size:13px;
+ border-bottom:silver;
+ margin-bottom: 3px;
+
+}
+
+.td
+{
+  background-color:white;
+  border-right: silver solid 1px;
+  border-left: silver solid 1px;
+  border-bottom:  silver solid 1px
+}
+.td1
+{
+  background-color:white;
+}
+.error
+{
+    background-color: red;
+    padding-top:1%;
+    padding-bottom: 1%;
+    margin-top: 1%;
+    margin-right: 17%;
+    margin-left: 17%;
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    font-family: arial;
+    color: white;
+    box-shadow:0 6px 13px rgba(0,8,0,0.70);
+    border-radius: 2px;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+.good
+{
+    background-color:green;
+    padding-top:1%;
+    padding-bottom: 1%;
+    margin-top: 1%;
+    margin-right: 17%;
+    margin-left: 17%;
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    font-family: arial;
+    color: white;
+    box-shadow:0 6px 13px rgba(0,8,0,0.70);
+    border-radius: 2px;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+.right_profile_link
+{
+background-color:skyblue;
+margin-top: 5px;
+margin-right: 5px;
+margin-left: 5%;
+padding-left:3px;
+padding-right: 3px;
+float:right;
+font-family:arial;
+color:black;
+
+}
+
+
+
+/*TICKETS PHOTO SLIDE SHOWS CSS GOES HERE*/
+* {
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+  background-color: lavender;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+  color: red;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+color: red;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+  color: forestgreen;
+}
+.prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+  color: forestgreen;
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover
+{
+  background-color: rgba(0, 0, 0, 0.8);
+  color: red;
+}
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: red;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: black;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+/*TICKETS PHOTO SLIDEE SHOWS CSS ENDS HERE*/
+
+
+.hide_textfield
+{
+display:none;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 140px;
+  background-color: #151B54;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  font-size: 13px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -75px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
